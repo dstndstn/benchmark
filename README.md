@@ -1,14 +1,14 @@
 # benchmark
 Docker image for benchmarking the legacypipe/tractor code
 
-'''
+```
 docker run dstndstn/benchmark:v0
-'''
+```
 
 
 Or, alternatively, on a typical Ubuntu dev machine, do:
 
-'''
+```
 # Install library dependencies
 sudo apt-get install swig zlib1g-dev libcfitsio-dev libcairo2-dev \
      libjpeg-dev libnetpbm10-dev netpbm
@@ -43,5 +43,4 @@ python legacypipe/runbrick.py --survey-dir demo-data-1 --outdir out-1 --brick 24
 
 # Benchmark -- takes about 90 seconds to run.
 python legacypipe/runbrick.py --survey-dir demo-data-1 --outdir out-1 --brick 2420p090 --zoom 1800 2000 1800 2000 --no-write --stage fitblobs
-'''
-
+```
