@@ -2,7 +2,7 @@
 Docker image for benchmarking the legacypipe/tractor code
 
 ```
-docker run dstndstn/benchmark:v0
+docker run dstndstn/benchmark:v1
 ```
 
 
